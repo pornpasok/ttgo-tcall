@@ -8,7 +8,7 @@ SerialPM pms(PMSx003, 21, 22);  // PMSx003, RX, TX
 #define TIME_TO_SLEEP  59        /* Time ESP will go to sleep (in seconds) */
 
 const char* ssid     = "SookYenFarm";    // SSID Wifi
-const char* password = "0863741677";   // Password Wifi
+const char* password = "WIFI-PASSWORD";   // Password Wifi
 const char* host = "http://appname.herokuapp.com/esp-post-data.php";
 const char* api   = "API-Key";  //API Key
 String sensorLocation = "12.7581423,102.1468503";
